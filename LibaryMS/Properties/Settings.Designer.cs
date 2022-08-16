@@ -26,11 +26,11 @@ namespace LibaryMS.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-KRCI0IE;Initial Catalog=LMS;User ID=LMS_admin;Password=admin2" +
-            "609")]
-        public string LMSConnectionString {
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Database1.mdf" +
+            ";Integrated Security=True")]
+        public string Database1ConnectionString {
             get {
-                return ((string)(this["LMSConnectionString"]));
+                return ((string)(this["Database1ConnectionString"]));
             }
         }
     }

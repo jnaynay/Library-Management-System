@@ -20,9 +20,9 @@ namespace LibaryMS {
     [global::System.ComponentModel.DesignerCategoryAttribute("code")]
     [global::System.ComponentModel.ToolboxItem(true)]
     [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedDataSetSchema")]
-    [global::System.Xml.Serialization.XmlRootAttribute("LMSDataSet")]
+    [global::System.Xml.Serialization.XmlRootAttribute("Database1DataSet")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet")]
-    public partial class LMSDataSet : global::System.Data.DataSet {
+    public partial class Database1DataSet : global::System.Data.DataSet {
         
         private ISBookDataTable tableISBook;
         
@@ -36,7 +36,7 @@ namespace LibaryMS {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-        public LMSDataSet() {
+        public Database1DataSet() {
             this.BeginInit();
             this.InitClass();
             global::System.ComponentModel.CollectionChangeEventHandler schemaChangedHandler = new global::System.ComponentModel.CollectionChangeEventHandler(this.SchemaChanged);
@@ -47,7 +47,7 @@ namespace LibaryMS {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-        protected LMSDataSet(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+        protected Database1DataSet(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                 base(info, context, false) {
             if ((this.IsBinarySerialized(info, context) == true)) {
                 this.InitVars(false);
@@ -172,7 +172,7 @@ namespace LibaryMS {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         public override global::System.Data.DataSet Clone() {
-            LMSDataSet cln = ((LMSDataSet)(base.Clone()));
+            Database1DataSet cln = ((Database1DataSet)(base.Clone()));
             cln.InitVars();
             cln.SchemaSerializationMode = this.SchemaSerializationMode;
             return cln;
@@ -271,9 +271,9 @@ namespace LibaryMS {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitClass() {
-            this.DataSetName = "LMSDataSet";
+            this.DataSetName = "Database1DataSet";
             this.Prefix = "";
-            this.Namespace = "http://tempuri.org/LMSDataSet.xsd";
+            this.Namespace = "http://tempuri.org/Database1DataSet.xsd";
             this.EnforceConstraints = true;
             this.SchemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
             this.tableISBook = new ISBookDataTable();
@@ -321,7 +321,7 @@ namespace LibaryMS {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedDataSetSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
-            LMSDataSet ds = new LMSDataSet();
+            Database1DataSet ds = new Database1DataSet();
             global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
             global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
             global::System.Xml.Schema.XmlSchemaAny any = new global::System.Xml.Schema.XmlSchemaAny();
@@ -722,7 +722,7 @@ namespace LibaryMS {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                LMSDataSet ds = new LMSDataSet();
+                Database1DataSet ds = new Database1DataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1016,7 +1016,7 @@ namespace LibaryMS {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                LMSDataSet ds = new LMSDataSet();
+                Database1DataSet ds = new Database1DataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1372,7 +1372,7 @@ namespace LibaryMS {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                LMSDataSet ds = new LMSDataSet();
+                Database1DataSet ds = new Database1DataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1729,7 +1729,7 @@ namespace LibaryMS {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                LMSDataSet ds = new LMSDataSet();
+                Database1DataSet ds = new Database1DataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2299,7 +2299,7 @@ namespace LibaryMS {
         }
     }
 }
-namespace LibaryMS.LMSDataSetTableAdapters {
+namespace LibaryMS.Database1DataSetTableAdapters {
     
     
     /// <summary>
@@ -2495,7 +2495,7 @@ SELECT id, std_enroll, std_name, std_dep, std_sem, std_contact, std_email, book_
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::LibaryMS.Properties.Settings.Default.LMSConnectionString;
+            this._connection.ConnectionString = global::LibaryMS.Properties.Settings.Default.Database1ConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2513,7 +2513,7 @@ SELECT id, std_enroll, std_name, std_dep, std_sem, std_contact, std_email, book_
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(LMSDataSet.ISBookDataTable dataTable) {
+        public virtual int Fill(Database1DataSet.ISBookDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -2526,9 +2526,9 @@ SELECT id, std_enroll, std_name, std_dep, std_sem, std_contact, std_email, book_
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual LMSDataSet.ISBookDataTable GetData() {
+        public virtual Database1DataSet.ISBookDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            LMSDataSet.ISBookDataTable dataTable = new LMSDataSet.ISBookDataTable();
+            Database1DataSet.ISBookDataTable dataTable = new Database1DataSet.ISBookDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -2536,14 +2536,14 @@ SELECT id, std_enroll, std_name, std_dep, std_sem, std_contact, std_email, book_
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(LMSDataSet.ISBookDataTable dataTable) {
+        public virtual int Update(Database1DataSet.ISBookDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(LMSDataSet dataSet) {
+        public virtual int Update(Database1DataSet dataSet) {
             return this.Adapter.Update(dataSet, "ISBook");
         }
         
@@ -3034,7 +3034,7 @@ SELECT id, std_enroll, std_name, std_dep, std_sem, std_contact, std_email, book_
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::LibaryMS.Properties.Settings.Default.LMSConnectionString;
+            this._connection.ConnectionString = global::LibaryMS.Properties.Settings.Default.Database1ConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3051,7 +3051,7 @@ SELECT id, std_enroll, std_name, std_dep, std_sem, std_contact, std_email, book_
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(LMSDataSet.logintableDataTable dataTable) {
+        public virtual int Fill(Database1DataSet.logintableDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -3064,9 +3064,9 @@ SELECT id, std_enroll, std_name, std_dep, std_sem, std_contact, std_email, book_
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual LMSDataSet.logintableDataTable GetData() {
+        public virtual Database1DataSet.logintableDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            LMSDataSet.logintableDataTable dataTable = new LMSDataSet.logintableDataTable();
+            Database1DataSet.logintableDataTable dataTable = new Database1DataSet.logintableDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -3074,14 +3074,14 @@ SELECT id, std_enroll, std_name, std_dep, std_sem, std_contact, std_email, book_
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(LMSDataSet.logintableDataTable dataTable) {
+        public virtual int Update(Database1DataSet.logintableDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(LMSDataSet dataSet) {
+        public virtual int Update(Database1DataSet dataSet) {
             return this.Adapter.Update(dataSet, "logintable");
         }
         
@@ -3401,7 +3401,7 @@ SELECT bid, bName, bAuthor, bPubl, bDate, bPrice, bQuan FROM Newbook WHERE (bid 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::LibaryMS.Properties.Settings.Default.LMSConnectionString;
+            this._connection.ConnectionString = global::LibaryMS.Properties.Settings.Default.Database1ConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3418,7 +3418,7 @@ SELECT bid, bName, bAuthor, bPubl, bDate, bPrice, bQuan FROM Newbook WHERE (bid 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(LMSDataSet.NewbookDataTable dataTable) {
+        public virtual int Fill(Database1DataSet.NewbookDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -3431,9 +3431,9 @@ SELECT bid, bName, bAuthor, bPubl, bDate, bPrice, bQuan FROM Newbook WHERE (bid 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual LMSDataSet.NewbookDataTable GetData() {
+        public virtual Database1DataSet.NewbookDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            LMSDataSet.NewbookDataTable dataTable = new LMSDataSet.NewbookDataTable();
+            Database1DataSet.NewbookDataTable dataTable = new Database1DataSet.NewbookDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -3441,14 +3441,14 @@ SELECT bid, bName, bAuthor, bPubl, bDate, bPrice, bQuan FROM Newbook WHERE (bid 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(LMSDataSet.NewbookDataTable dataTable) {
+        public virtual int Update(Database1DataSet.NewbookDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(LMSDataSet dataSet) {
+        public virtual int Update(Database1DataSet dataSet) {
             return this.Adapter.Update(dataSet, "Newbook");
         }
         
@@ -3824,7 +3824,7 @@ SELECT stuid, sname, enroll, dep, sem, contact, email FROM NewStudent WHERE (stu
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::LibaryMS.Properties.Settings.Default.LMSConnectionString;
+            this._connection.ConnectionString = global::LibaryMS.Properties.Settings.Default.Database1ConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3841,7 +3841,7 @@ SELECT stuid, sname, enroll, dep, sem, contact, email FROM NewStudent WHERE (stu
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(LMSDataSet.NewStudentDataTable dataTable) {
+        public virtual int Fill(Database1DataSet.NewStudentDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -3854,9 +3854,9 @@ SELECT stuid, sname, enroll, dep, sem, contact, email FROM NewStudent WHERE (stu
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual LMSDataSet.NewStudentDataTable GetData() {
+        public virtual Database1DataSet.NewStudentDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            LMSDataSet.NewStudentDataTable dataTable = new LMSDataSet.NewStudentDataTable();
+            Database1DataSet.NewStudentDataTable dataTable = new Database1DataSet.NewStudentDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -3864,14 +3864,14 @@ SELECT stuid, sname, enroll, dep, sem, contact, email FROM NewStudent WHERE (stu
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(LMSDataSet.NewStudentDataTable dataTable) {
+        public virtual int Update(Database1DataSet.NewStudentDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(LMSDataSet dataSet) {
+        public virtual int Update(Database1DataSet dataSet) {
             return this.Adapter.Update(dataSet, "NewStudent");
         }
         
@@ -4249,7 +4249,7 @@ SELECT stuid, sname, enroll, dep, sem, contact, email FROM NewStudent WHERE (stu
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-        private int UpdateUpdatedRows(LMSDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateUpdatedRows(Database1DataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._iSBookTableAdapter != null)) {
                 global::System.Data.DataRow[] updatedRows = dataSet.ISBook.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
@@ -4295,7 +4295,7 @@ SELECT stuid, sname, enroll, dep, sem, contact, email FROM NewStudent WHERE (stu
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-        private int UpdateInsertedRows(LMSDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateInsertedRows(Database1DataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._iSBookTableAdapter != null)) {
                 global::System.Data.DataRow[] addedRows = dataSet.ISBook.Select(null, null, global::System.Data.DataViewRowState.Added);
@@ -4337,7 +4337,7 @@ SELECT stuid, sname, enroll, dep, sem, contact, email FROM NewStudent WHERE (stu
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-        private int UpdateDeletedRows(LMSDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
+        private int UpdateDeletedRows(Database1DataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
             int result = 0;
             if ((this._newStudentTableAdapter != null)) {
                 global::System.Data.DataRow[] deletedRows = dataSet.NewStudent.Select(null, null, global::System.Data.DataViewRowState.Deleted);
@@ -4403,7 +4403,7 @@ SELECT stuid, sname, enroll, dep, sem, contact, email FROM NewStudent WHERE (stu
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-        public virtual int UpdateAll(LMSDataSet dataSet) {
+        public virtual int UpdateAll(Database1DataSet dataSet) {
             if ((dataSet == null)) {
                 throw new global::System.ArgumentNullException("dataSet");
             }
